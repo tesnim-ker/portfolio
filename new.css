@@ -1,0 +1,194 @@
+@import url('http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+	/* background-image: url("back2.jpg");*/ 
+  box-sizing: border-box;
+	margin: 0;
+  padding: 0;
+  background-color:rgb(34, 33, 33);
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  min-height: 1500px;
+}
+
+li, a, button {
+  
+  font-weight: 500;
+  font-size: 16px;
+  color:#edf0f1;
+  text-decoration: none;
+
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo{
+  cursor: pointer;
+  margin-right: auto;
+  line-height: 70px;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    margin-right: 40px;
+    position: relative;
+ 
+}
+ .menu li{
+  display: inline-block;
+  padding: 0px 20px;
+  
+  margin: 0 5px;
+}
+
+
+.menu li,a {
+    transition: all 0.3s ease 0s;
+    line-height: 70px;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: cyan;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #33ffff,
+                0 0 5px #66ffff;
+
+}
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: rgba(0,136,169,1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+ 
+
+}
+button:hover {
+  background-color: rgba(0,136,169,0.8);
+  box-shadow: 0 0 5px #33ffff,
+  0 0 5px #66ffff;
+}
+
+/
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+#text {
+  color: #fff;
+  font-size: 5em;
+  z-index: 1;
+  position: relative;
+
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+}
+.containerr {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right {
+  width: 150%;
+  height: 600px;
+  background: url("33.png")
+    no-repeat center / cover;
+  border-radius: 10px;
+}
+.left {
+  width: 110%;
+  min-height: 400px;
+  background-color: #33ffff,;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 30px;
+  border-radius: 10px;
+  color: burlywood;
+  margin-left: -150px;
+}
+.left h1 {
+  font-size: 40px;
+  font-weight: lighter;
+  text-align-last:center;
+}
+.left p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
+}
+.right1 {
+  width: 100%;
+  height: 400px;
+  background: url("poet.jpg")
+    no-repeat center / cover;
+  border-radius: 8px;
+}
+.right2 {
+  width: 150%;
+  height: 600px;
+  background: url("free.jpg")
+    no-repeat center / cover;
+  border-radius: 10px;
+}
+.tab1{
+  margin-left: 25%;
+  margin-right: 50%;
+}
